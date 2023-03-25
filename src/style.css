@@ -5,3 +5,68 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+:root {
+  --background-color: #00030c;
+  --text-primary: #ffffff;
+  --text-secondary: #c0c0c0;
+  --button-blue: #167bf7;
+  --font: "Inter";
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.main {
+  background-image: url("./assets/Background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+.containerBox {
+  margin: 0 6em;
+}
+
+.containerTitle {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.containerImg {
+  margin: 1em 0 2em 0;
+}
+
+.containerButton {
+  display: block;
+  background-color: var(--button-blue);
+  color: var(--text-primary);
+  text-align: center;
+  text-decoration: none;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+
+.buttonSecondary {
+  background-color: transparent;
+  border: 2px solid var(--text-primary);
+}
+
+.containerWarning {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
