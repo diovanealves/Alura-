@@ -11,6 +11,7 @@
   --text-primary: #ffffff;
   --text-secondary: #c0c0c0;
   --button-blue: #167bf7;
+  --button-blue-effect: #3c92fa;
   --font: "Inter";
 }
 
@@ -18,7 +19,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-primary);
   font-family: var(--font);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -31,7 +32,7 @@ body {
 .main {
   background-image: url("./assets/Background.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center right;
   background-size: contain;
   align-items: center;
   text-align: center;
@@ -69,4 +70,86 @@ body {
 .containerWarning {
   color: var(--text-secondary);
   font-size: 12px;
+}
+
+.secondary {
+  align-items: center;
+  margin: 0 8em;
+}
+
+.secondaryImg {
+  width: 80%;
+}
+
+.containerDescription {
+  padding: 2em;
+}
+
+.descriptionTitle {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+}
+
+.descriptionText {
+  color: var(--text-secondary);
+}
+
+.buttonCombo {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.devices {
+  text-align: center;
+}
+
+.titleDevice {
+  font-size: 48px;
+}
+
+.listDevices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.itemList {
+  color: var(--text-primary);
+  font-size: 28px;
+}
+
+.footer {
+  text-align: center;
+  margin: 6em 3em;
+}
+
+.listFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  list-style-type: none;
+  margin: 3em;
+}
+
+.listLink a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.listLink a:hover {
+  color: var(--button-blue);
+}
+
+.textFooter {
+  margin: 1em 0;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.containerButton:hover {
+  background-color: var(--button-blue-effect);
+  color: var(--background);
 }
