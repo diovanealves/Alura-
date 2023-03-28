@@ -153,3 +153,47 @@ body {
   background-color: var(--button-blue-effect);
   color: var(--background);
 }
+
+@media (max-width: 1000px) {
+  .main {
+    background-image: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secondary {
+    text-align: center;
+    margin: 0;
+  }
+
+  .descriptionTitle {
+    font-size: 35px;
+  }
+
+  .containerDescription {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .titleDevice {
+    font-size: 36px;
+  }
+
+  .listDevices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .listFooter {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+}
