@@ -1,6 +1,6 @@
 <h1 align="center"> AluraPlus | Alura</h1>
 
-<p align="center">Um site de divulgação do Alura+, uma plataforma de streaming de conteúdos esducacionais da Alura</p>
+<p align="center">Um site de divulgação do Alura+, uma plataforma de streaming de conteúdos educacionais  da Alura</p>
 
 | :placard: Vitrine.Dev |                                           |
 | --------------------- | ----------------------------------------- |
